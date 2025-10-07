@@ -22,9 +22,7 @@ COPY script.js .
 COPY carousel-fix.css .
 COPY carousel-sync.css .
 COPY feri.png .
-COPY branding.md .
-COPY project_definition.md .
-COPY README.md .
+
 
 # Create a non-root user for security
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
